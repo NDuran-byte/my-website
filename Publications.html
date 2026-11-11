@@ -1,0 +1,261 @@
+<!DOCTYPE html>	
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Angelica Duran Martinez">
+		<meta name="keywords" content="Angelica Duran Martinez, UMass Lowell, Political Science, Latin America, violence">
+		<meta name="author" content="Angélica Durán Martínez">		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="canonical" href="https://NDuran-byte.github.io/my-website/">
+		<title>Angélica Durán Martínez | Political Science </title>
+		<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href="css/media-queries.css" rel="stylesheet" media="only screen and (min-width: 320px)">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300" rel="stylesheet" type="text/css"> 
+		<script>
+			if ('querySelector' in document && 
+				'addEventListener' in window) {
+
+				var toggleButtons = document.querySelectorAll('.toggle-content');
+				var fullTextWrappers = document.querySelectorAll('.fulltext');
+				var fullText;
+				var toggleButtonText;
+	
+				[].forEach.call(fullTextWrappers, function(fullTextWrapper) {
+					// hide all full text on load
+					fullTextWrapper.setAttribute('hidden', true);
+				});
+
+				[].forEach.call(toggleButtons, function(toggleButton) {
+					// show toggle more buttons
+					toggleButton.removeAttribute('hidden');
+
+					// add listener for each button
+					toggleButton.addEventListener('click', function () {
+						fullTextWrapper = this.parentElement.querySelector('.fulltext');
+						toggleButtonText = this.querySelector('.text');
+
+						// change attributes and text if full text is shown/hidden
+						if (!fullTextWrapper.hasAttribute('hidden')) {
+							toggleButtonText.innerText = 'Show More';
+							fullTextWrapper.setAttribute('hidden', true);
+							toggleButton.setAttribute('aria-expanded', false);
+						} else {
+							toggleButtonText.innerText = 'Show Less';
+							fullTextWrapper.removeAttribute('hidden');
+							toggleButton.setAttribute('aria-expanded', true);
+						}
+					});
+				});
+			}
+		</script>
+		<script>
+			function myFunction() {
+				window.location.href = "index.html";
+			};
+		</script>
+	</head>
+
+	<body>
+		<div class="top">
+			<div id="logo" onclick="myFunction()">
+				<img src="Images/Logoangietotal.png" alt="Logo Angie">
+			</div>
+			
+			<div id="top-nav">
+				<div class="nav">
+					<ul>
+						<li><a href="index.html">About me</a></li>
+						<li><a href="Publications.html">Publications</a></li> 
+						<li><a href="Teaching.html">Teaching</a></li>  
+						<li><a href="Awards.html">Awards</a></li> 
+						<li><a href="Talks.html">Talks and presentations</a></li> 
+						<li><a href="In_the_media.html">In the media</a></li>
+						<li><a href="Gallery.html">Gallery</a></li>        
+					</ul>  
+				</div>
+
+				<div class="mobilenav">						
+					<ul>
+						<li><a href="Publications.html">
+							<img src="Images/icons/Publications.png" alt="Publications"/>
+							<span>Publications</span></a></li>								
+						<li><a href="Teaching.html">
+							<img src="Images/icons/Teaching.png" alt="Teaching"/>
+							<span>Teaching</span></a></li>
+						<li><a href="Awards.html">
+							<img src="Images/icons/Awards.png" alt="Awards"/>
+							<span>Awards</span></a></li>
+						<li><a href="Talks.html">
+							<img src="Images/icons/Talks.png" alt="Talks"/>
+							<span>Talks</span></a></li>
+						<li><a href="In_the_media.html">
+							<img src="Images/icons/Media.png" alt="Media"/>
+							<span>Media</span></a></li>
+						<li><a href="Gallery.html">
+							<img src="Images/icons/Gallery.png" alt="Gallery"/>
+							<span>Gallery</span></a></li>	
+					</ul>  
+				</div>						
+			</div>                     
+		</div> 
+		
+		<div class="content">
+			<div class="gallerytitle">
+				<h2>PUBLICATIONS</h2>                        
+			</div>              
+			<div id="text">
+				<h2>BOOK</h2>
+				<ul>
+					<li><p>"The Politics of Drug Violence: Criminals, Cops, and Politicians in Colombia and Mexico" <b>Oxford University Press</b> 2018.</p></li>
+					<a href="https://global.oup.com/academic/product/the-politics-of-drug-violence-9780190695965?cc=no&lang=en&">Get it here!</a>
+				</ul>
+				<br>
+				
+				<h2>PEER REVIEWED PUBLICATIONS</h2>
+				<ul>
+					<li><p>“The Drug Trade and State Violence in Internal Conflicts: Evidence from Peru” (with Hillel Soifer) Latin American Politics and Society, forthcoming 2021.</p></li>
+					<li><p>"Hiding violence to deal with the state: criminal pacts in El Salvador and Medellín" (with Jose Miguel Cruz) Journal of Peace Research 53 (2) (2016).</p></li>
+					<a href="http://jpr.sagepub.com/content/early/2016/02/22/0022343315626239.abstract">Read here!</a>
+					<li><p>"To Kill and Tell? State Power, Criminal Competition, and drug violence" Journal of Conflict Resolution 59 (8) (December 2015)</p></li>
+					<a href="http://jcr.sagepub.com/content/59/8/1377">Read here!</a>
+					<li><p>"Drugs around the corner: Domestic drug markets and violence in Colombia and Mexico" Latin American Politics and Society, 57 (3) (2015).</p></li>
+					<a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1548-2456.2015.00274.x/abstract">Read here!</a>
+					<li><p>"Presidents, Parties and Referenda in Latin America" Comparative Political Studies 45:8 (August 2012)</p></li>
+					<a href="http://cps.sagepub.com/content/45/9/1159.short">Read here!</a>
+					<li><p>"Does illegality breed violence? Drug trafficking and state-sponsored protection rackets", with Richard Snyder, Crime, Law and Social Change 52:3 (September 2009)</p></li>
+					<a href="http://link.springer.com/article/10.1007/s10611-009-9195-z">Read here!</a>
+					<li><p>"Drug Trafficking and State Sponsored Protection Rackets in Mexico and Colombia" with Richard Snyder, Colombia Internacional 70 (December 2009)</p></li>
+					<a href="http://www.scielo.org.co/scielo.php?pid=S0121-56122009000200004&script=sci_arttext&tlng=es">Read here!</a>
+					<li><p>"Crossing borders: political transnationalism among Dominican New Yorkers", Revista de Ciencia Política, Universidad Nacional de Colombia (2010)</p></li>
+					<li><p>"The Frontier: a strategic pivot of national integration" Revista Territorios, Universidad de Los Andes, Bogota (2002)</p></li>
+					<a href="http://www.redalyc.org/articulo.oa?id=35700708">Read here!</a>
+				</ul>
+				<br>
+				
+				<h2>BOOK CHAPTERS</h2>
+				<ul> 
+					<li><p>“Cocaine Smuggling: Between Geopolitics and Domestic Power Struggles” in Gallien, Max and Weigand, Florian (Eds) Routledge Handbook of Smuggling, 2021.</p></li> 
+					<a href="https://www.routledge.com/The-Routledge-Handbook-of-Smuggling/Gallien-Weigand/p/book/9780367489533">Read here!</a>
+					<li><p>“From Acquiescence to Rebellion: South America and the Global Drug Control Regime” in Idler, A and Garzón, J.C, eds., Transforming the War on Drugs. <b>Hurst, Oxford University Press</b>, 2021, pp.129-156.</p></li>  
+					<a href="https://global.oup.com/academic/product/transforming-the-war-on-drugs-9780197604359?cc=us&lang=en&">Read here!</a>
+					<li><p>“Illicit Drugs and Organized Crime in Latin America: New Scholarship and the Future of Alternative Policies” in Bada, X. and Rivera Sanchez, L. eds, Oxford Handbook of Sociology in Latin America <b>University Press</b>, 2020.</p></li>
+					<a href="https://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780190926557.001.0001/oxfordhb-9780190926557-e-43">Read here!</a>         
+					<li><p><b>In preparation (under contract): </b>“¿Rebelión contra la prohibición? Suramérica y las políticas de drogas en el Siglo XXI” in Molano, Giovanni, (Ed) Las Drogas en América Latina: Nuevos Enfoques, <b>Nuevas Interpretaciones (Editorial Universidad Nacional de Colombia)</b>.</p></li>
+					<li><p>“Silent Traffickers or Brutal Criminals: How State Power Shapes Criminal’s Incentives to Expose Violence” in Santamaría and Carey Jr, eds., Violence and Crime in Latin America, <b>Oklahoma University Press</b>, 2017.</p></li>
+					<li><p>"The international politics of drugs and illicit trade in the Americas" with Peter Andreas, in Dominguez and Covarrubias, eds., Handbook of Latin America in the World, <b>Routledge</b>, 2014.</p></li>
+					<a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2326720">Read here!</a>
+					<li><p>"Jóvenes y violencia en Medellín: entre transformación urbana y violencia persistente" in Alvarado, ed, Violencia Juvenil y Acceso a la Justicia en América Latina Tomo I, <b>Colegio de Mexico</b>, 2014.</p></li>
+					<li><p>"Jóvenes en Ciudad Juárez, Chihuahua: entre la falta de oportunidades y el miedo a la violencia" with Ursula Alanis, in Alvarado, ed, Violencia Juvenil y Acceso a la Justicia en América Latina Tomo II, <b>Colegio de Mexico</b>, 2014.</p></li> 
+					<li><p>"The politics of drugs and illicit trade in the Americas" with Peter Andreas, in Kingstone and Yashar, eds., Handbook of Latin American Politics, <b>Routledge</b>, 2012</p></li>
+				</ul>
+				<br>
+				
+				<h2>WORKING PAPERS</h2>
+				<ul>
+					<li><p>"Producing Knowledge in the Global South: The Political Economy of Social Science in Argentina, Colombia, and Peru” with Maria Bautista, Jazmin Sierra and Richard Snyder</p></li>
+					<a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2327889">Read here!</a>
+				</ul>
+				<br>
+				
+				<h2>BOOK REVIEWS</h2>
+				<ul>
+					<li><p>Book Review to Securitization and Desecuritization of FARC in Colombia: A Dual Perspective Analysis by Bașar Baysal (Lexington Books, 2019) in Latin American Politics and Society (Winter 2020)</p></li>
+					<li><p>Book review: "Book Review to Homicidal Ecologies" by Deborah Yashar (Cambridge University Press, 2018). Published in Governance, 32(4): 824-826 (2019)</p></li>
+					<a href="https://onlinelibrary.wiley.com/doi/10.1111/gove.12448">Read here!</a> 
+					<li><p>Book review: “Voices of Crime: Constructing and Contesting Social Control in Modern Latin America” by Huertas, Luz E., Lucero, Bonnie A. and Swedberg, Gregory J. Published in Bulletin of Latin American Research (2018)</p></li>
+					<a href="https://onlinelibrary.wiley.com/doi/10.1111/blar.12900">Read here!</a> 
+					<li><p>Book review: "International Drug Control: Consensus Fractured" by David Bewley-Taylor. Published in Criminal Law and Criminal Justice books, Rutgers School of Law–Newark and Rutgers School of Criminal Justice (November 2012)</p></li>
+					<a href="http://clcjbooks.rutgers.edu/books/international_drug_control.html">Read here!</a> 
+				</ul>
+				<br>
+				
+				<h2>NON-PEER REVIEWED AND OPINION PIECES</h2>
+				<ul>
+					<li><p>“La reciclada y fallida estrategia de seguridad de Duque”. In Razón Pública (April 2021)</p></li>
+					<a href="https://razonpublica.com/la-reciclada-fallida-estrategia-seguridad-duque">Read here!</a>
+					<li><p>“Luces en el camino”. In Revista El Malpensante (January 2021)</p></li> 
+					<a href="https://elmalpensante.com/articulo/luces-en-el-camino">Read here!</a>
+					<li><p>“Vuelven las fumigaciones en medio de la pandemia”. In Razón Pública (August 2020)</p></li>
+					<a href="https://razonpublica.com/vuelven-las-fumigaciones-medio-la-pandemia">Read here!</a> 
+					<li><p>“Federal agents sent to Kenosha, but history shows militarized policing in cities can escalate violence and trigger conflict”. In The Conversation (August 2020)</p></li>
+					<a href="https://theconversation.com/federal-agents-sent-to-kenosha-but-history-shows-militarized-policing-in-cities-can-escalate-violence-and-trigger-conflict-143579">Read here!</a>
+					<li><p>“Estados Unidos, Colombia, y la política antidrogas en el 2020”. In Razón Pública (January 2020)</p></li>
+					<a href="https://razonpublica.com/estados-unidos-colombia-la-politica-antidrogas-2020">Read here!</a>
+					<li><p>“Cartel Sieges Leave Mexicans Wondering if Cartels Run the Country”. In The Conversation (November 2019)</p></li>
+					<a href="https://theconversation.com/cartel-sieges-leave-mexicans-wondering-if-criminals-run-the-country-126986">Read here!</a> 
+					<li><p>“Menos Castigo para el pequeño cocalero ¿En qué consiste la reforma?”. In Razon Publica (November 2019)</p></li>
+					<a href="https://razonpublica.com/index.php/conflicto-drogas-y-paz-temas-30/12402-menos-castigo-para-el-pequeno-cocalero-en-que-consiste-la-reforma.html">Read here!</a>
+					<li><p>“¿Se redujeron los cultivos de coca en el 2018?”. In Razon Publica (June 2019)</p></li>
+					<a href="https://www.razonpublica.com/index.php/conflicto-drogas-y-paz-temas-30/12109-se-redujeron-los-cultivos-de-coca-en-el-2018.html">Read here!</a>
+					<li><p>“¿Ha aumentado el tráfico de drogas en Colombia?”. In Razon Publica (April 2019)</p></li>
+					<a href="https://razonpublica.com/index.php/conflicto-drogas-y-paz-temas-30/11896-ha-aumentado-el-trafico-de-drogas-en-colombia.html">Read here!</a>
+					<li><p>“¿Quién tiene razón en el debate sobre glifosato?”. In Razon Publica (March 2019)</p></li>
+					<a href="https://www.razonpublica.com/index.php/conflicto-drogas-y-paz-temas-30/11825-quien-tiene-razon-en-el-debate-sobre-el-glifosato.html">Read here!</a>
+					<li><p>“Mexico is bleeding. Can its new president stop the violence?”. In The Conversation (January 2019)</p></li>
+					<a href="https://theconversation.com/mexico-is-bleeding-can-its-new-president-stop-the-violence-109490">Read here!</a> 
+					<li><p>“Drugs and Democracy in Colombia”. In NACLA Report on the Americas (2018), 50:4, 360-363, DOI: 10.1080/10714839.2018.1550977</p></li>
+					<li><p>“The Multiple Dimensions of Drug Related Violence”. In Peace in Progress No.35 (November 2018) (Published in Spanish too)</p></li>
+					<a href="http://www.icip-perlapau.cat/numero35/articles_centrals/article_central_1/">Read here!</a> 
+					<li><p>“Las Propuestas del Fiscal contra las Drogas: Será que si funcionan?” In Razón Pública (November 2018)</p></li>
+					<a href="https://www.razonpublica.com/index.php/conflicto-drogas-y-paz-temas-30/11559-las-propuestas-del-fiscal-contra-las-drogas-ser%C3%A1-que-s%C3%AD-funcionan.html">Read here!</a>
+					<li><p>“Colombia: El nuevo panorama de la Guerra contra las drogas”. In Razón Pública (July 2018)</p></li>
+					<a href="https://www.razonpublica.com/index.php/conflicto-drogas-y-paz-temas-30/11223-colombia-nuevo-panorama-de-la-guerra-contra-las-drogas.html">Read here!</a> 
+					<li><p>“El tratamiento penal de los pequeños cocaleros: Todos inconformes”. In Razón Pública. (April 2018)</p></li>
+					<a href="https://www.razonpublica.com/index.php/conflicto-drogas-y-paz-temas-30/11023-el-tratamiento-penal-de-los-peque%C3%B1os-cocaleros-todos-inconformes.html">Read here!</a> 
+					<li><p>“Trump’s plan to execute drug pushers will do nothing to stop the opioid crisis”. In The Conversation. (March 2018)</p></li>
+					<a href="https://theconversation.com/trump-plan-to-execute-big-drug-pushers-will-do-nothing-to-stop-opioid-overdoses-93898">Read here!</a> 
+					<li><p>“La descertificación y otros demonios” in Razón Pública (September 2017)</p></li>
+					<a href="https://razonpublica.com/index.php/conflicto-drogas-y-paz-temas-30/10545-la-descertificaci%C3%B3n-y-otros-demonios.html">Read here!</a>
+					<li><p>“Drug Trafficking and Drug Policies in the Americas: Change, Continuity, and Challenges” Review Essay. Latin American Politics and Society 59 (2), 2017: 145-153.</p></li>
+					<li><p>“El narcotráfico después de las FARC” in Razón Pública (March 2017)</p></li>
+					<a href="http://www.razonpublica.com/index.php/conflicto-drogas-y-paz-temas-30/10072-el-narcotr%C3%A1fico-despu%C3%A9s-de-las-farc.html">Read here!</a>
+					<li><p>“¿Qué se puede renegociar en el acuerdo de drogas ilícitas?”. In Razón Pública (November 2016)</p></li> 
+					<a href="http://www.razonpublica.com/index.php/conflicto-drogas-y-paz-temas-30/9845-qu%C3%A9-se-puede-renegociar-en-el-acuerdo-sobre-drogas-il%C3%ADcitas.html">Read here!</a>
+					<li><p>“Fiscal vs. Ministerio de Justicia: La pelea por reformar la política antidrogas”. In Razón Pública (November 2016)</p></li>
+					<a href="http://www.razonpublica.com/index.php/politica-y-gobierno-temas-27/9897-fiscal-versus-ministerio-de-justicia-la-pelea-por-reformar-la-pol%C3%ADtica-antidrogas.html">Read here!</a>
+					<li><p>“Los grandes retos del acuerdo de drogas ilícitas”. In Razón Pública (July 2016)</p></li>
+					<a href="http://www.razonpublica.com/index.php/conflicto-drogas-y-paz-temas-30/9555-los-grandes-retos-del-acuerdo-sobre-drogas-il%C3%ADcitas.html">Read here!</a>
+					<li><p>Drugs Around the Corner: Domestic Drug Markets and Violence in Colombia and Mexico, Guest Post for Panoramas Website (May 2016)</p></li>
+					<a href="http://panoramas.pitt.edu/health/drugs-around-corner-domestic-drug-markets-and-violence-colombia-and-mexico">Read here!</a>
+					<li><p>"State Power and the Visibility of Drug Violence". Guest Post for Political Violence at @ Glance (August 7 2015)</p></li>
+					<a href="http://politicalviolenceataglance.org/2015/08/07/state-power-and-the-visibility-of-drug-violence/">Read here!</a> 
+					<li><p>"Qué sabemos sobre la marihuana medicinal?" in Razón Pública (October 2014)</p></li>
+					<a href="http://www.razonpublica.com/index.php/econom-y-sociedad-temas-29/8022-%C2%BFqu%C3%A9-sabemos-sobre-la-marihuana-medicinal.html">Read here!</a>
+					<li><p>"El acuerdo sobre drogas ilícitas: esperanzas y desafíos" in Razón Pública (May 2014)</p></li>
+					<a href="http://www.razonpublica.com/index.php/conflicto-drogas-y-paz-temas-30/7636-el-acuerdo-sobre-drogas-il%C3%ADcitas-esperanzas-y-desaf%C3%ADos.html">Read here!</a>
+					<li><p>Building An Effective Research Safety Protocol And Emergency Exit Strategies. Working paper series from the Social Science Research Council on Research Security. (2014)</p></li>
+					<a href="http://webarchive.ssrc.org/working-papers/DSD_ResearchSecurity_04_Duran-Martinez.pdf">Read here!</a>
+					<li><p>"La negociación con las FARC y el debate sobre la política antidrogas", in Razón Pública. (November 2013)</p></li>
+					<a href="http://www.razonpublica.com/index.php/conflicto-drogas-y-paz-temas-30/7200-la-negociaci%C3%B3n-con-las-farc-y-el-debate-sobre-la-pol%C3%ADtica-antidrogas.html">Read here!</a> 
+					<li><p>"Cali o la invisibilidad de la violencia", in Razón Pública. (April 2013)</p>
+					<a href="http://www.razonpublica.com/index.php/conflicto-drogas-y-paz-temas-30/3671-cali-o-la-invisibilidad-de-la-violencia.html">Read here!</a></li>
+					<li><p>"Violencia Urbana, Narcotráfico y Conflicto: algunas anotaciones para el debate" (December 2010)</p></li>
+					<a href="http://www.indepaz.org">Read here!</a> 
+					<li><p>Mid Year Report on Drug Violence in Mexico, Transborder Institute, with Gayle Hazard and Viridiana Rios (2010)</p></li>
+					<li><p>"La Colombianización de México: estableciendo términos apropiados de debate", in Revista Perspectiva, Edición 24 (2010)</p></li>
+					<a href="http://www.revistaperspectiva.com/archivos/revista/No%2024/020-024%20PERS%20OK.pdf">Read here!</a>
+					<li><p>"Referendos en América Latina: ¿una herramienta que fortalece o debilita las instituciones democráticas?", in Revista Perspectiva, Edición 21 (2009)</p></li>
+					<a href="http://www.revistaperspectiva.com/archivos/revista/No%2021/032-035%20PERS%20OK">Read here!</a>
+					<li><p>"Report The impact of organized crime on democratic governance in Central America and the Caribbean" Case studies on illegal economies and corruption in Nicaragua, Honduras, Trinidad and Tobago, Jamaica. Working paper, Fundación para las Relaciones Internacionales y el Diálogo Exterior FRIDE.</p></li>
+					<a href="http://www.fride.org/publication/144/organized-crime-the-state-and-democracy-the-cases-of-central-america-and-the-caribbean">Read here!</a>                     
+				</ul>
+				<br>
+			</div>                                            
+		</div>
+		
+		<div id="footer">
+			<div class="contact">
+				<h3>CONTACT ME</h3>
+				<p>Send an email: <a href="mailto:Angelica_DuranMartinez@uml.edu">Angelica_DuranMartinez@uml.edu</a></p>
+				<p>Department of Political Science</p>
+				<p>Dugan Hall, Suite 201</p>
+				<p>883 Broadway Street, Lowell, MA 01854</p> 
+			</div>
+			<div class="dev">
+				<p1>Webdesign:&nbsp;&nbsp;&nbsp;makemyweb@cryptolab.net</p1>
+				<br>
+				<p1>© 2018 Copyright&nbsp;&nbsp;Angélica Durán Martínez</p1>
+			</div>
+		</div>    
+	</body>
+</html>

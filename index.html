@@ -1,0 +1,142 @@
+<!DOCTYPE html>	
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Angelica Duran Martinez">
+		<meta name="keywords" content="Angelica Duran Martinez, UMass Lowell, Political Science, Latin America, violence">
+		<meta name="author" content="Angélica Durán Martínez">		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="canonical" href="https://NDuran-byte.github.io/my-website/">
+		<title>Angélica Durán Martínez | Political Science </title>
+		<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href="css/media-queries.css" rel="stylesheet" media="only screen and (min-width: 320px)">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300" rel="stylesheet" type="text/css"> 
+		<script>
+			if ('querySelector' in document && 
+				'addEventListener' in window) {
+
+				var toggleButtons = document.querySelectorAll('.toggle-content');
+				var fullTextWrappers = document.querySelectorAll('.fulltext');
+				var fullText;
+				var toggleButtonText;
+	
+				[].forEach.call(fullTextWrappers, function(fullTextWrapper) {
+					// hide all full text on load
+					fullTextWrapper.setAttribute('hidden', true);
+				});
+
+				[].forEach.call(toggleButtons, function(toggleButton) {
+					// show toggle more buttons
+					toggleButton.removeAttribute('hidden');
+
+					// add listener for each button
+					toggleButton.addEventListener('click', function () {
+						fullTextWrapper = this.parentElement.querySelector('.fulltext');
+						toggleButtonText = this.querySelector('.text');
+
+						// change attributes and text if full text is shown/hidden
+						if (!fullTextWrapper.hasAttribute('hidden')) {
+							toggleButtonText.innerText = 'Show More';
+							fullTextWrapper.setAttribute('hidden', true);
+							toggleButton.setAttribute('aria-expanded', false);
+						} else {
+							toggleButtonText.innerText = 'Show Less';
+							fullTextWrapper.removeAttribute('hidden');
+							toggleButton.setAttribute('aria-expanded', true);
+						}
+					});
+				});
+			}
+		</script>
+		<script>
+			function myFunction() {
+				window.location.href = "index.html";
+			};
+		</script>
+	</head>
+
+	<body>
+		<div class="top">
+			<div id="logo" onclick="myFunction()">
+				<img src="Images/Logoangietotal.png" alt="Logo Angie">
+			</div>
+			
+			<div id="top-nav">
+				<div class="nav">						
+					<ul>
+						<li><a href="index.html">About me</a></li>
+						<li><a href="Publications.html">Publications</a></li> 
+						<li><a href="Teaching.html">Teaching</a></li>  
+						<li><a href="Awards.html">Awards</a></li> 
+						<li><a href="Talks.html">Talks and presentations</a></li> 
+						<li><a href="In_the_media.html">In the media</a></li>
+						<li><a href="Gallery.html">Gallery</a></li>        
+					</ul>  
+				</div>
+				
+				<div class="mobilenav">						
+					<ul>
+						<li><a href="Publications.html">
+							<img src="Images/icons/Publications.png" alt="Publications"/>
+							<span>Publications</span></a></li>								
+						<li><a href="Teaching.html">
+							<img src="Images/icons/Teaching.png" alt="Teaching"/>
+							<span>Teaching</span></a></li>
+						<li><a href="Awards.html">
+							<img src="Images/icons/Awards.png" alt="Awards"/>
+							<span>Awards</span></a></li>
+						<li><a href="Talks.html">
+							<img src="Images/icons/Talks.png" alt="Talks"/>
+							<span>Talks</span></a></li>
+						<li><a href="In_the_media.html">
+							<img src="Images/icons/Media.png" alt="Media"/>
+							<span>Media</span></a></li>
+						<li><a href="Gallery.html">
+							<img src="Images/icons/Gallery.png" alt="Gallery"/>
+							<span>Gallery</span></a></li>	
+					</ul>  
+				</div>
+			</div>                     
+		</div> 		
+
+		<div class="content">
+		    <div class="about-section">
+			    <img src="Images/Machu_Pichu_circulo.png" alt="myphoto" class="left"/>
+			    <img src="Images/picture_mobile.png" class="image_mobile" alt="myphoto mobile"/>
+			    <div id="less-1">
+				    <p>I'm an Associate Professor in Political Science at the University of Massachusetts-Lowell. I obtained a Ph.D. in Political Science at Brown University, a B.A. in Political Science from Universidad Nacional de Colombia and completed an M.A. in Latin American and Caribbean Studies at New York University thanks to a Fulbright Scholarship.</p>
+				    <p>My research interests include the relations between organized crime, violence, and the state in Latin America, as well as the interconnections between democracy, rule of law, and citizen security.</p>
+				    <p>My book "The Politics of Drug Violence: Criminals, Cops, and Politicians in Colombia and Mexico" published in 2018 by Oxford University Press, presents a novel theory to explain variation in forms and levels of drug related violence.</p>
+				    <p>Other recent publications include "To Kill and Tell? State Power, Criminal Competition, and Drug Violence." (Journal of Conflict Resolution, 2015), and "Drugs Around the Corner: Domestic Drug Markets and Violence in Colombia and Mexico" (Latin American Politics and Society, 2015).</p>
+			    </div>
+			
+			<br>
+			   <div class="fulltext" id="more-1">
+				    <a class="more" href="#more-1">Show more<span class="visually-hidden"></span></a>
+				    <p>I have also published in the Journal of Peace Research, Comparative Political Studies, and Crime, Law and Social Change (2009) and participated in edited volumes with pieces such as "The International Politics of Drugs and Illicit trade in the Americas" (with Peter Andreas), included in the Handbook of Latin American in the World, Routledge (2014).</p>
+				    <p>My research has been featured in opinion pieces and academic blogs such as Political Violence at @glance, and I contribute regularly to websites such as the Conversation and Razón Pública (Colombia).</p>
+				    <p>I have been a Fulbright Fellow at the United Nations Secretariat and a consultant for the UN Office on Drugs and Crime, the UN Development Program, and Global Integrity.</p> <p>Prior to my graduate studies, in Colombia I worked for the Foundation Ideas for Peace (FIP) and for several research projects about the Colombian armed conflict.</p>
+				    <a class="less" href="#less-1">Show less<span class="visually-hidden"></span></a>
+			   </div>		
+			</div>
+			<div class="push">
+				<br>
+			</div>                    
+		</div>
+		
+		<div id="footer">
+			<div class="contact">
+				<h3>CONTACT ME</h3>
+				<p>Send an email:<a href="mailto:Angelica_DuranMartinez@uml.edu">Angelica_DuranMartinez@uml.edu</a></p>
+				<p>Department of Political Science</p>
+				<p>Dugan Hall, Suite 201</p>
+				<p>883 Broadway Street, Lowell, MA 01854</p> 
+			</div>
+			<div class="dev">
+				<p1>Webdesign:&nbsp;&nbsp;&nbsp;makemyweb@cryptolab.net</p1>
+				<br>
+				<p1>© 2018 Copyright&nbsp;&nbsp;Angélica Durán Martínez</p1>
+			</div>
+		</div>    
+      </body>
+</html>

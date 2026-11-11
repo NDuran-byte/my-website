@@ -1,0 +1,311 @@
+@media only screen and (min-width: 320px) and (max-width: 768px)  {
+	
+.top							{width: 100%;
+								 height: auto;
+								 border: none; 
+}
+#logo							{width:100%; 
+								 float:none;
+								 margin: 0 auto;
+}	
+#top-nav 						{width:100%;
+                                 display: block; 
+								 float:none;
+								 margin-right:0;
+								 margin-top:0;
+								 margin: 0 auto;
+								 border:none; 
+								 vertical-align: middle;
+								 
+}
+.nav                            { display: none;
+}                               
+.mobilenav                     {display: inline-block; 
+                                width: 98%;  
+								margin: 0 auto; 
+								padding: 1%;
+								text-align: center;
+													
+}
+.mobilenav  ul    			    {margin: 0 auto; 
+                                 padding: 0 0.2% 0 0.2%;
+}
+.mobilenav  ul li               {display: inline-block;
+	                            list-style-type:none !important;
+								margin: 0.2em; 
+								padding: 0.2em;
+	                            text-decoration:none; 
+							    color:rgb(51,51,51);								 
+} 
+
+.mobilenav  ul li	a    	    {font-size: 0.85em;
+
+ }
+ 
+.mobilenav  ul li	a img 	    {display: block;
+                                margin: 0 auto;
+}
+.mobilenav  ul li	a:link     {text-decoration:none; 
+								color:rgb(51,51,51);
+}                                 
+.dropdown {  display: block;
+}
+
+.dropdown-content li {
+  display: none;
+  position: absolute;
+}
+
+.dropdown:hover .dropdown-content li {
+  display: block;
+}
+
+.content  			    		{margin: 0 auto; 
+								 padding: 0.5% 0 0 0; 
+}
+
+.about-section {
+    width: 95%;
+    margin: 0 auto; 
+	padding: 3% 2% 3% 2%;
+ }
+.content #text                 {width: 95%; 
+                                margin: 0 auto; 
+								padding: 1% 4% 0 4%;
+}	
+
+img.left			            {display:none;
+}
+
+img.image_mobile                 {display: block; 
+                                 max-width: 100%; 
+                                 margin:0.3% 0.6% 0 0.6%;
+								 padding: 0;
+}					 
+#less-1 p {
+  margin: 4% 2% 1% 2%;
+  
+}							 
+/*.content #aboutme               {width:100%;
+								 float:left;
+								 margin:0 0.7% 0 0.7%;
+								 padding:0;
+								 border-left:none;
+}*/
+button 							{margin-top:1%;
+								 margin-bottom:1%;								 								 
+}
+.gallerytitle  				   {width: 90%; 
+	                            padding-top: 1em;  
+}
+
+.legend {
+	width: 100%; 
+	margin: 1% auto 0 auto; 
+}
+.gallerylegend  				{padding: 1% 1% 4% 1%; 	
+}
+				 
+.gallerylegend p 				{width: 100%; margin: 0 auto ;
+								 
+}
+.gallery 						{max-width:100%;
+                                 padding: 0;   
+}
+.push 							{margin-bottom; 0; 
+								padding-bottom: 0;   
+}
+#footer {
+    text-align: center; 
+}
+
+.contact {
+    max-width: 100%;
+    float: none;
+    text-align: center;
+    margin: 1em auto;
+    padding: 0 1em;
+}
+
+.contact h3,
+.contact p {
+    text-align: center;
+}
+
+.contact p {
+    font:  1em;
+    line-height: 20px;
+}
+.dev {
+    max-width: 100%;
+    float: none;
+    clear: both;
+    text-align: center; 
+    margin: 2em auto 1em auto;
+    padding-top: 1em;
+}
+
+p1 								{color: #FFF;
+                                 margin: 0; 			 
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+.top							{width: 100%;
+								 height: auto;
+								 border: none; 
+}
+#logo							{width:100%; 
+								 float:none;
+								 margin: 0 auto;
+}	
+#top-nav 						{width:100%;
+                                 display: block; 
+								 float:none;
+								 margin-right:0;
+								 margin-top:0;
+								 margin: 0 auto;
+								 border:none; 
+								 vertical-align: middle;
+								 
+}
+.nav                            { display: none;
+}                               
+.mobilenav                     {display: inline-block; 
+                               width: 100%;  
+								margin: 0 auto; 
+								padding: 1%;
+								text-align: center;
+													
+}
+.mobilenav  ul    			    {margin: 0 auto; 
+                                 padding: 0 0.2% 0 0.2%;
+}
+.mobilenav  ul li               {display: inline-block;
+	                            list-style-type:none !important;
+								margin: 0.2em; 
+								padding: 0.2em;
+	                            text-decoration:none; 
+							    color:rgb(51,51,51);								 
+} 
+
+.mobilenav  ul li	a    	    {font-size: 0.85em;
+
+ }
+ 
+.mobilenav  ul li	a img 	    {display: block;
+                                margin: 0 auto;
+}
+.mobilenav  ul li	a:link     {text-decoration:none; 
+								color:rgb(51,51,51);
+}                                 
+.dropdown {  display: block;
+}
+
+.dropdown-content li {
+  display: none;
+  position: absolute;
+}
+
+.dropdown:hover .dropdown-content li {
+  display: block;
+}
+
+.content  			    		{width: 90%;
+                                   margin: 0 auto; 
+								 padding: 0.5% 0 0 0; 
+}
+
+.about-section {
+    width: 95%;
+    margin: 0 auto; 
+	padding: 3% 2% 3% 2%;
+ }
+.content #text                 {width: 85%; 
+                                margin: 0 auto; 
+								padding: 1% 4% 0 4%;
+}	
+
+img.left			            {display:none;
+}
+
+img.image_mobile                 {display: block; 
+                                 max-width: 100%;
+                                 margin:0 auto;
+								 padding: 0; 
+}					 
+#less-1 p {
+  margin: 4% 2% 1% 2%;
+  
+}							 
+button 							{margin-top:1%;
+								 margin-bottom:1%;								 								 
+}
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+	
+.top	                        {width: 100%;
+								 height: auto;
+								 border: none; 
+}
+
+#logo img						{max-width:120%; 
+								 float:none;
+								 margin: 0 auto;
+}	
+
+.nav                            { display: none;
+}                               
+.mobilenav                     {display: inline-block; 
+                                width: 100%;  
+								margin: 0 auto; 
+								padding: 0.2%;
+								text-align: center;		
+}
+.mobilenav  ul    			    {margin: 0 auto; 
+                                 padding: 0 0.2% 0 0.2%;
+}
+.mobilenav  ul li               {display: inline-block;
+	                            list-style-type:none !important;
+								margin: 0.2em; 
+								padding: 0.2em;
+	                            text-decoration:none; 
+							    color:rgb(51,51,51);								 
+} 
+
+.mobilenav  ul li	a    	    {font-size: 1em;
+
+ }
+ 
+.mobilenav  ul li	a img 	    {display: block;
+                                margin: 0 auto;
+}
+.mobilenav  ul li	a:link     {text-decoration:none; 
+								color:rgb(51,51,51);
+}                                 
+.dropdown {  display: block;
+}
+
+.dropdown-content li {
+  display: none;
+  position: absolute;
+}
+
+.dropdown:hover .dropdown-content li {
+  display: block;
+}
+img.left			            {width:40%;
+								 height:38%;								 								 
+                                float: left; 
+                                 margin:0 2% 0.5% 0.5%;
+								 padding: 0 1% 1.5% 0.5%;
+}
+.content #text					{padding:0 auto;
+}
+
+.gallery 						{max-width:90%; 
+}
+}
+
+
