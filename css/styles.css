@@ -13,17 +13,21 @@ body {
 	margin: 0 auto; 
 	height: 213px;
 	padding-bottom: 0.5em;
-	background-color: #EAE5E5;/*#1F2F22; 
+	text-align: center;
+	background-color: #EAE5E5;
 }
 					 
 /*Distribution centrée de l'entête*/
 #logo {
+	display: block; 
 	width: 53%; 
 	height: auto;
 	margin: 0 auto;
+	text-align: center; 
 }
 								 
 #logo img {
+	display: block; 
 	max-width: 100%;
 	height: auto;
 	margin: 0 auto; 
