@@ -1,5 +1,4 @@
 @media only screen and (max-width: 767px)  {
-	
 .top							{width: 100%;
 								 height: auto;
 								 border: none; 
@@ -16,9 +15,8 @@
 								 margin: 0 auto;
 								 border:none; 
 								 vertical-align: middle;
-								 
 }
-.nav                            { display: none;
+.nav                           { display: none;
 }                               
 .mobilenav                     {display: inline-block; 
                                 width: 98%;  
