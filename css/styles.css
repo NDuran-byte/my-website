@@ -28,8 +28,7 @@ body {
 #logo img {
 	max-width: 100%;
 	height: auto;
-	-webkit-mask: #588A7B;
-	mask: red;
+	margin: 0 auto; 
 }
 
 /*Distribution centrée de l'entête*/
